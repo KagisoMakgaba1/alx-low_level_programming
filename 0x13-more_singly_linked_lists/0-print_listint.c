@@ -2,7 +2,7 @@
 
 /**
  * print_listint - prints all the elements of a listint_t list
- * @h: pointer to the linkint_t list
+ * @h: pointer to the listint_t list
  *
  * Return: the number of notes
  */
