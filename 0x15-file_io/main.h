@@ -10,6 +10,7 @@
 
 #define POSIX_C_SOURCE 200809L
 #define READ_BYTES 1204
+#define BUFF_SIZE 1024
 
 int _putchar(char c);
 
