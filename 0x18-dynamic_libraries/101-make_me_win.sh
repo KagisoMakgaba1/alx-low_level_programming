@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P .. https://raw.github.com/KagisoMakgaba1/alx-low_level_programming/blob/master/libhack.so
-export LD_PRELOAD="$PWD/../libhack.so"
+wget -q -O /tmp/gigalib.so https://raw.githubusercontent.com/KagisoMakgaba1/alx-low_level_programming/blob/master/0x18-dynamic_libraries/gigalib.so
+export LD_PRELOAD=/tmp/gigalib.so
