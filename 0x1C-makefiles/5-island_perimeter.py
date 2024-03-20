@@ -2,6 +2,7 @@
 
 """This module attempts to solve the Island Perimeter coding challenge."""
 
+
 def island_perimeter(grid: "list[list]") -> int:
     """Calculates the perimeter of an island.
 
